@@ -1,0 +1,13 @@
+{
+	"template": {
+		"assets": {
+			"styles": ["templates/bootstrap/css/bootstrap.css"],
+			"scripts": []
+		}
+	},
+	"posts": [
+		"2013/04"
+	],
+
+	"title": "teste blog"
+}
