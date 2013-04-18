@@ -1,7 +1,10 @@
 {
 	"template": {
 		"assets": {
-			"styles": ["templates/bootstrap/css/bootstrap.css"],
+			"styles": [
+				"templates/bootstrap/css/bootstrap.css", 
+				"templates/simple-template/css/simple-template-style.css"
+			],
 			"scripts": []
 		}
 	},

@@ -5,7 +5,6 @@ global.testing = (/\/tests\//g).test(window.location.href);
 global.templates = global.templates ? global.templates : {};
 
 global.templates.MainTemplate = Backbone.Model.extend({
-
     /**
 	 * constructor
 	 */
@@ -51,7 +50,10 @@ global.templates.MainTemplate = Backbone.Model.extend({
   				this.get({
 	  				url: 'posts/' + data.posts[i] + '/posts.json',
 	  				callback: function (data) {
-	  					console.log(data)
+	  					for (var post in data.posts) {
+	  						for (var j in data.posts[post])
+	  						console.log(data.posts[post][j])
+	  					}
 	  				}
   				});
   			}
@@ -91,9 +93,7 @@ global.templates.MainTemplate = Backbone.Model.extend({
 });
 
 $(document).ready(function () {
-
 	if ( !global.testing ) {
 		global.templates.mainTemplate = new global.templates.MainTemplate({start: true});
 	}
-
 });

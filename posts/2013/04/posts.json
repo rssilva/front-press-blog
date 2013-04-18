@@ -1,7 +1,42 @@
 {
 	"posts": [
 		{
-			"p": "Isso é um terrível teste"
-		}
+			"post": {
+				"url": "post-senhor",
+				"h1": "post, senhor",
+				"date": "17/04/2013",
+				"author": "Rafael Specht",
+				"p": "isso é um parágrafo",
+				"p": "outro parágrafo",
+				"img": {
+					"href": "",
+					"title": "",
+					"rel": ""
+				},
+				"p": "mais uno parágrafo, senhor, porem com <strong>FORÇA</strong>"
+			},
+			"widgets": [
+
+			]
+		},
+		{
+			"post": {
+				"url": "post-senhor2",
+				"h1": "post2",
+				"date": "17/04/2013",
+				"author": "Rafael Specht",
+				"p": "isso é um parágrafo",
+				"p": "outro parágrafo",
+				"img": {
+					"href": "",
+					"title": "",
+					"rel": ""
+				},
+				"p": "mais uno parágrafo, senhor, porem com <strong>FORÇA</strong>"
+			},
+			"widgets": [
+
+			]
+		} 
 	]
 }
