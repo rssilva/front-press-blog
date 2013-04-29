@@ -129,7 +129,7 @@ global.templates.PostTemplate.View = Backbone.View.extend({
 
 	renderTemplate: function (postData) {
 		var html = this.postTemplate({'postData' : postData});
-
+		console.log('render template')
 		this.$el.html(html);
 	},
 
